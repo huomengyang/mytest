@@ -26,6 +26,7 @@ public class ImplTest {
 		User user = userDaoImpl.getUsernameById(10);
 		System.out.println("我是张三");
 		System.out.println("再说一遍我是张三");
+		System.out.println("张三你好，我是李四");
 		System.out.println(user);
 	}
 	
