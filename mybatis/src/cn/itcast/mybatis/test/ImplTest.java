@@ -30,6 +30,7 @@ public class ImplTest {
 		System.out.println("我管你是谁");
 		System.out.println("你是我儿子吗");
 		System.out.println("cnm");
+		System.out.println("hahahh");
 		System.out.println(user);
 	}
 	
