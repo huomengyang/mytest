@@ -24,6 +24,7 @@ public class ImplTest {
 	public void Test() {
 		UserDaoImpl userDaoImpl = new UserDaoImpl(sqlSessionFactory);
 		User user = userDaoImpl.getUsernameById(10);
+		System.out.println("我是张三");
 		System.out.println(user);
 	}
 	
